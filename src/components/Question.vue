@@ -1,0 +1,64 @@
+<script setup>
+
+</script>
+<template>
+  <div class="question-container">
+    <h1 class="question">what is the capital of france?</h1>
+  </div>
+  <div class="options-container">
+    <div class="option">
+      <p class="options-label">a</p>
+      <div class="options-value">
+        <p>nacl</p>
+      </div>
+    </div>
+    <div class="option">
+      <p class="options-label">a</p>
+      <div class="options-value">
+        <p>nacl</p>
+      </div>
+    </div>
+    <div class="option">
+      <p class="options-label">a</p>
+      <div class="options-value">
+        <p>nacl</p>
+      </div>
+    </div>
+    <div class="option">
+      <p class="options-label">a</p>
+      <div class="options-value">
+        <p>nacl</p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.question-container {
+  margin-top: 20px;
+}
+.question {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.option {
+  display: flex;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.options-label {
+  background-color: bisque;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.options-value {
+  background-color: rgb(244, 239, 239);
+  width: 100%;
+  font-size: 30px;
+  padding: 0;
+}
+</style>
